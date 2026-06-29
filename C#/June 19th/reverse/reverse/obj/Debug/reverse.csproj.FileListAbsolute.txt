@@ -1,0 +1,7 @@
+C:\Users\LENOVO\source\repos\reverse\reverse\obj\Debug\reverse.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\reverse\reverse\obj\Debug\reverse.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\reverse\reverse\bin\Debug\reverse.exe.config
+C:\Users\LENOVO\source\repos\reverse\reverse\bin\Debug\reverse.exe
+C:\Users\LENOVO\source\repos\reverse\reverse\bin\Debug\reverse.pdb
+C:\Users\LENOVO\source\repos\reverse\reverse\obj\Debug\reverse.exe
+C:\Users\LENOVO\source\repos\reverse\reverse\obj\Debug\reverse.pdb
