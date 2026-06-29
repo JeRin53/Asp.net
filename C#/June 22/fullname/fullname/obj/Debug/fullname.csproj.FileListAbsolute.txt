@@ -1,0 +1,7 @@
+D:\Luminar\June 22\fullname\fullname\obj\Debug\fullname.csproj.AssemblyReference.cache
+D:\Luminar\June 22\fullname\fullname\obj\Debug\fullname.csproj.CoreCompileInputs.cache
+D:\Luminar\June 22\fullname\fullname\bin\Debug\fullname.exe.config
+D:\Luminar\June 22\fullname\fullname\bin\Debug\fullname.exe
+D:\Luminar\June 22\fullname\fullname\bin\Debug\fullname.pdb
+D:\Luminar\June 22\fullname\fullname\obj\Debug\fullname.exe
+D:\Luminar\June 22\fullname\fullname\obj\Debug\fullname.pdb

@@ -1,0 +1,6 @@
+D:\Luminar\June 29\H.w pattern\H.w pattern\bin\Debug\H.w pattern.exe.config
+D:\Luminar\June 29\H.w pattern\H.w pattern\bin\Debug\H.w pattern.exe
+D:\Luminar\June 29\H.w pattern\H.w pattern\bin\Debug\H.w pattern.pdb
+D:\Luminar\June 29\H.w pattern\H.w pattern\obj\Debug\H.w pattern.csproj.CoreCompileInputs.cache
+D:\Luminar\June 29\H.w pattern\H.w pattern\obj\Debug\H.w pattern.exe
+D:\Luminar\June 29\H.w pattern\H.w pattern\obj\Debug\H.w pattern.pdb

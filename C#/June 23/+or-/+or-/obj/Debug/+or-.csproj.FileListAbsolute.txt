@@ -1,0 +1,6 @@
+D:\Luminar\June 23\+or-\+or-\bin\Debug\+or-.exe.config
+D:\Luminar\June 23\+or-\+or-\bin\Debug\+or-.exe
+D:\Luminar\June 23\+or-\+or-\bin\Debug\+or-.pdb
+D:\Luminar\June 23\+or-\+or-\obj\Debug\+or-.csproj.CoreCompileInputs.cache
+D:\Luminar\June 23\+or-\+or-\obj\Debug\+or-.exe
+D:\Luminar\June 23\+or-\+or-\obj\Debug\+or-.pdb

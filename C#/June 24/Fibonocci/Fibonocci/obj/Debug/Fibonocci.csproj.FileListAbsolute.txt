@@ -1,0 +1,6 @@
+D:\Luminar\June 24\Fibonocci\Fibonocci\bin\Debug\Fibonocci.exe.config
+D:\Luminar\June 24\Fibonocci\Fibonocci\bin\Debug\Fibonocci.exe
+D:\Luminar\June 24\Fibonocci\Fibonocci\bin\Debug\Fibonocci.pdb
+D:\Luminar\June 24\Fibonocci\Fibonocci\obj\Debug\Fibonocci.csproj.CoreCompileInputs.cache
+D:\Luminar\June 24\Fibonocci\Fibonocci\obj\Debug\Fibonocci.exe
+D:\Luminar\June 24\Fibonocci\Fibonocci\obj\Debug\Fibonocci.pdb

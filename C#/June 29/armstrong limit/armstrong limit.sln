@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37327.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "armstrong limit", "armstrong limit\armstrong limit.csproj", "{16E0BFD5-78C9-40B4-9F8A-9B2CD2477D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16E0BFD5-78C9-40B4-9F8A-9B2CD2477D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E0BFD5-78C9-40B4-9F8A-9B2CD2477D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E0BFD5-78C9-40B4-9F8A-9B2CD2477D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E0BFD5-78C9-40B4-9F8A-9B2CD2477D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AD7DFC8-F016-417E-86D9-90587A04FD2C}
+	EndGlobalSection
+EndGlobal

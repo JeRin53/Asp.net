@@ -1,0 +1,7 @@
+C:\Luminar\June 19th\examples\examples\bin\Debug\examples.exe.config
+C:\Luminar\June 19th\examples\examples\bin\Debug\examples.exe
+C:\Luminar\June 19th\examples\examples\bin\Debug\examples.pdb
+C:\Luminar\June 19th\examples\examples\obj\Debug\examples.csproj.AssemblyReference.cache
+C:\Luminar\June 19th\examples\examples\obj\Debug\examples.csproj.CoreCompileInputs.cache
+C:\Luminar\June 19th\examples\examples\obj\Debug\examples.exe
+C:\Luminar\June 19th\examples\examples\obj\Debug\examples.pdb

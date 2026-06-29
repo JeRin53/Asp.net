@@ -1,0 +1,7 @@
+D:\Luminar\June26\natural no.s\natural no.s\bin\Debug\natural no.s.exe.config
+D:\Luminar\June26\natural no.s\natural no.s\bin\Debug\natural no.s.exe
+D:\Luminar\June26\natural no.s\natural no.s\bin\Debug\natural no.s.pdb
+D:\Luminar\June26\natural no.s\natural no.s\obj\Debug\natural no.s.csproj.AssemblyReference.cache
+D:\Luminar\June26\natural no.s\natural no.s\obj\Debug\natural no.s.csproj.CoreCompileInputs.cache
+D:\Luminar\June26\natural no.s\natural no.s\obj\Debug\natural no.s.exe
+D:\Luminar\June26\natural no.s\natural no.s\obj\Debug\natural no.s.pdb

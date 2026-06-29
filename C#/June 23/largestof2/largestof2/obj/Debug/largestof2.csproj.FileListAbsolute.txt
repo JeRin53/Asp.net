@@ -1,0 +1,7 @@
+D:\Luminar\June 23\largestof2\largestof2\bin\Debug\largestof2.exe.config
+D:\Luminar\June 23\largestof2\largestof2\bin\Debug\largestof2.exe
+D:\Luminar\June 23\largestof2\largestof2\bin\Debug\largestof2.pdb
+D:\Luminar\June 23\largestof2\largestof2\obj\Debug\largestof2.csproj.AssemblyReference.cache
+D:\Luminar\June 23\largestof2\largestof2\obj\Debug\largestof2.csproj.CoreCompileInputs.cache
+D:\Luminar\June 23\largestof2\largestof2\obj\Debug\largestof2.exe
+D:\Luminar\June 23\largestof2\largestof2\obj\Debug\largestof2.pdb

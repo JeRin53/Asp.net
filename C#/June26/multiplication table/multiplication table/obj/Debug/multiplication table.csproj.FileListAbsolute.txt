@@ -1,0 +1,6 @@
+D:\Luminar\June26\multiplication table\multiplication table\bin\Debug\multiplication table.exe.config
+D:\Luminar\June26\multiplication table\multiplication table\bin\Debug\multiplication table.exe
+D:\Luminar\June26\multiplication table\multiplication table\bin\Debug\multiplication table.pdb
+D:\Luminar\June26\multiplication table\multiplication table\obj\Debug\multiplication table.csproj.CoreCompileInputs.cache
+D:\Luminar\June26\multiplication table\multiplication table\obj\Debug\multiplication table.exe
+D:\Luminar\June26\multiplication table\multiplication table\obj\Debug\multiplication table.pdb

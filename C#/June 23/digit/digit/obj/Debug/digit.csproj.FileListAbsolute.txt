@@ -1,0 +1,7 @@
+D:\Luminar\June 23\digit\digit\bin\Debug\digit.exe.config
+D:\Luminar\June 23\digit\digit\bin\Debug\digit.exe
+D:\Luminar\June 23\digit\digit\bin\Debug\digit.pdb
+D:\Luminar\June 23\digit\digit\obj\Debug\digit.csproj.AssemblyReference.cache
+D:\Luminar\June 23\digit\digit\obj\Debug\digit.csproj.CoreCompileInputs.cache
+D:\Luminar\June 23\digit\digit\obj\Debug\digit.exe
+D:\Luminar\June 23\digit\digit\obj\Debug\digit.pdb

@@ -1,0 +1,6 @@
+D:\Luminar\June 23\oddeven\oddeven\bin\Debug\oddeven.exe.config
+D:\Luminar\June 23\oddeven\oddeven\bin\Debug\oddeven.exe
+D:\Luminar\June 23\oddeven\oddeven\bin\Debug\oddeven.pdb
+D:\Luminar\June 23\oddeven\oddeven\obj\Debug\oddeven.csproj.CoreCompileInputs.cache
+D:\Luminar\June 23\oddeven\oddeven\obj\Debug\oddeven.exe
+D:\Luminar\June 23\oddeven\oddeven\obj\Debug\oddeven.pdb

@@ -1,0 +1,6 @@
+D:\Luminar\June 22\integer\integer\bin\Debug\integer.exe.config
+D:\Luminar\June 22\integer\integer\bin\Debug\integer.exe
+D:\Luminar\June 22\integer\integer\bin\Debug\integer.pdb
+D:\Luminar\June 22\integer\integer\obj\Debug\integer.csproj.CoreCompileInputs.cache
+D:\Luminar\June 22\integer\integer\obj\Debug\integer.exe
+D:\Luminar\June 22\integer\integer\obj\Debug\integer.pdb

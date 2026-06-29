@@ -1,0 +1,7 @@
+D:\Luminar\June 29\armstrong limit\armstrong limit\bin\Debug\armstrong limit.exe.config
+D:\Luminar\June 29\armstrong limit\armstrong limit\bin\Debug\armstrong limit.exe
+D:\Luminar\June 29\armstrong limit\armstrong limit\bin\Debug\armstrong limit.pdb
+D:\Luminar\June 29\armstrong limit\armstrong limit\obj\Debug\armstrong limit.csproj.AssemblyReference.cache
+D:\Luminar\June 29\armstrong limit\armstrong limit\obj\Debug\armstrong limit.csproj.CoreCompileInputs.cache
+D:\Luminar\June 29\armstrong limit\armstrong limit\obj\Debug\armstrong limit.exe
+D:\Luminar\June 29\armstrong limit\armstrong limit\obj\Debug\armstrong limit.pdb

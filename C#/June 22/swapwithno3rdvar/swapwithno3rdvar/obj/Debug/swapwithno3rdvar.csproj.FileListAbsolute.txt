@@ -1,0 +1,7 @@
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\bin\Debug\swapwithno3rdvar.exe.config
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\bin\Debug\swapwithno3rdvar.exe
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\bin\Debug\swapwithno3rdvar.pdb
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\obj\Debug\swapwithno3rdvar.csproj.AssemblyReference.cache
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\obj\Debug\swapwithno3rdvar.csproj.CoreCompileInputs.cache
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\obj\Debug\swapwithno3rdvar.exe
+D:\Luminar\June 22\swapwithno3rdvar\swapwithno3rdvar\obj\Debug\swapwithno3rdvar.pdb

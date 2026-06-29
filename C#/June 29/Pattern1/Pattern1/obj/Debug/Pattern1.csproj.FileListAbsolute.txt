@@ -1,0 +1,7 @@
+D:\Luminar\June 29\Pattern1\Pattern1\bin\Debug\Pattern1.exe.config
+D:\Luminar\June 29\Pattern1\Pattern1\bin\Debug\Pattern1.exe
+D:\Luminar\June 29\Pattern1\Pattern1\bin\Debug\Pattern1.pdb
+D:\Luminar\June 29\Pattern1\Pattern1\obj\Debug\Pattern1.csproj.AssemblyReference.cache
+D:\Luminar\June 29\Pattern1\Pattern1\obj\Debug\Pattern1.csproj.CoreCompileInputs.cache
+D:\Luminar\June 29\Pattern1\Pattern1\obj\Debug\Pattern1.exe
+D:\Luminar\June 29\Pattern1\Pattern1\obj\Debug\Pattern1.pdb

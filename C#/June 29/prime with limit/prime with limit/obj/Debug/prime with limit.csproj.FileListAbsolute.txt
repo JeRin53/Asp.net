@@ -1,0 +1,7 @@
+D:\Luminar\June 29\prime with limit\prime with limit\bin\Debug\prime with limit.exe.config
+D:\Luminar\June 29\prime with limit\prime with limit\bin\Debug\prime with limit.exe
+D:\Luminar\June 29\prime with limit\prime with limit\bin\Debug\prime with limit.pdb
+D:\Luminar\June 29\prime with limit\prime with limit\obj\Debug\prime with limit.csproj.AssemblyReference.cache
+D:\Luminar\June 29\prime with limit\prime with limit\obj\Debug\prime with limit.csproj.CoreCompileInputs.cache
+D:\Luminar\June 29\prime with limit\prime with limit\obj\Debug\prime with limit.exe
+D:\Luminar\June 29\prime with limit\prime with limit\obj\Debug\prime with limit.pdb

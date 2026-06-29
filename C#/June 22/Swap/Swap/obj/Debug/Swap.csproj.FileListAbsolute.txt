@@ -1,0 +1,6 @@
+D:\Luminar\June 22\Swap\Swap\bin\Debug\Swap.exe.config
+D:\Luminar\June 22\Swap\Swap\bin\Debug\Swap.exe
+D:\Luminar\June 22\Swap\Swap\bin\Debug\Swap.pdb
+D:\Luminar\June 22\Swap\Swap\obj\Debug\Swap.csproj.CoreCompileInputs.cache
+D:\Luminar\June 22\Swap\Swap\obj\Debug\Swap.exe
+D:\Luminar\June 22\Swap\Swap\obj\Debug\Swap.pdb

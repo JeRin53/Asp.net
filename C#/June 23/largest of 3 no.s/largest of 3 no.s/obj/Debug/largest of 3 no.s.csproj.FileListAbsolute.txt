@@ -1,0 +1,7 @@
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\bin\Debug\largest of 3 no.s.exe.config
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\bin\Debug\largest of 3 no.s.exe
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\bin\Debug\largest of 3 no.s.pdb
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\obj\Debug\largest of 3 no.s.csproj.AssemblyReference.cache
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\obj\Debug\largest of 3 no.s.csproj.CoreCompileInputs.cache
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\obj\Debug\largest of 3 no.s.exe
+D:\Luminar\June 23\largest of 3 no.s\largest of 3 no.s\obj\Debug\largest of 3 no.s.pdb
