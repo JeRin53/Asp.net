@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 1st\break\break\bin\Debug\@break.exe.config
+D:\Luminar\C#\July 1st\break\break\bin\Debug\@break.exe
+D:\Luminar\C#\July 1st\break\break\bin\Debug\@break.pdb
+D:\Luminar\C#\July 1st\break\break\obj\Debug\break.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 1st\break\break\obj\Debug\break.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 1st\break\break\obj\Debug\@break.exe
+D:\Luminar\C#\July 1st\break\break\obj\Debug\@break.pdb

@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 8th\interface\interface\bin\Debug\@interface.exe.config
+D:\Luminar\C#\July 8th\interface\interface\bin\Debug\@interface.exe
+D:\Luminar\C#\July 8th\interface\interface\bin\Debug\@interface.pdb
+D:\Luminar\C#\July 8th\interface\interface\obj\Debug\interface.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 8th\interface\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 8th\interface\interface\obj\Debug\@interface.exe
+D:\Luminar\C#\July 8th\interface\interface\obj\Debug\@interface.pdb

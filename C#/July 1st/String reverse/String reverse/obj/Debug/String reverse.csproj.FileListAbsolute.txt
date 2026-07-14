@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 1st\String reverse\String reverse\bin\Debug\String reverse.exe.config
+D:\Luminar\C#\July 1st\String reverse\String reverse\bin\Debug\String reverse.exe
+D:\Luminar\C#\July 1st\String reverse\String reverse\bin\Debug\String reverse.pdb
+D:\Luminar\C#\July 1st\String reverse\String reverse\obj\Debug\String reverse.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 1st\String reverse\String reverse\obj\Debug\String reverse.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 1st\String reverse\String reverse\obj\Debug\String reverse.exe
+D:\Luminar\C#\July 1st\String reverse\String reverse\obj\Debug\String reverse.pdb

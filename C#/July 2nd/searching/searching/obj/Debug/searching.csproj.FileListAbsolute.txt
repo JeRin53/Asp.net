@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 2nd\searching\searching\bin\Debug\searching.exe.config
+D:\Luminar\C#\July 2nd\searching\searching\bin\Debug\searching.exe
+D:\Luminar\C#\July 2nd\searching\searching\bin\Debug\searching.pdb
+D:\Luminar\C#\July 2nd\searching\searching\obj\Debug\searching.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 2nd\searching\searching\obj\Debug\searching.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 2nd\searching\searching\obj\Debug\searching.exe
+D:\Luminar\C#\July 2nd\searching\searching\obj\Debug\searching.pdb

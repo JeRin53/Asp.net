@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37327.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "words reversing", "words reversing\words reversing.csproj", "{AA96E71D-D32B-48C5-8F33-5BA33CF208EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA96E71D-D32B-48C5-8F33-5BA33CF208EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA96E71D-D32B-48C5-8F33-5BA33CF208EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA96E71D-D32B-48C5-8F33-5BA33CF208EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA96E71D-D32B-48C5-8F33-5BA33CF208EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB2087E7-01E3-4AFF-8763-81F592DADEFE}
+	EndGlobalSection
+EndGlobal

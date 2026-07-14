@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 3rd\2d array\2d array\bin\Debug\2d array.exe.config
+D:\Luminar\C#\July 3rd\2d array\2d array\bin\Debug\2d array.exe
+D:\Luminar\C#\July 3rd\2d array\2d array\bin\Debug\2d array.pdb
+D:\Luminar\C#\July 3rd\2d array\2d array\obj\Debug\2d array.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 3rd\2d array\2d array\obj\Debug\2d array.exe
+D:\Luminar\C#\July 3rd\2d array\2d array\obj\Debug\2d array.pdb

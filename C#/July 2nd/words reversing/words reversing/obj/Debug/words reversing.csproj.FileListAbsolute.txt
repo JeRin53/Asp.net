@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 2nd\words reversing\words reversing\bin\Debug\words reversing.exe.config
+D:\Luminar\C#\July 2nd\words reversing\words reversing\bin\Debug\words reversing.exe
+D:\Luminar\C#\July 2nd\words reversing\words reversing\bin\Debug\words reversing.pdb
+D:\Luminar\C#\July 2nd\words reversing\words reversing\obj\Debug\words reversing.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 2nd\words reversing\words reversing\obj\Debug\words reversing.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 2nd\words reversing\words reversing\obj\Debug\words reversing.exe
+D:\Luminar\C#\July 2nd\words reversing\words reversing\obj\Debug\words reversing.pdb

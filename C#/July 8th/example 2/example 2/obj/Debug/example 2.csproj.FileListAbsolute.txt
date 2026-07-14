@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 8th\example 2\example 2\bin\Debug\example 2.exe.config
+D:\Luminar\C#\July 8th\example 2\example 2\bin\Debug\example 2.exe
+D:\Luminar\C#\July 8th\example 2\example 2\bin\Debug\example 2.pdb
+D:\Luminar\C#\July 8th\example 2\example 2\obj\Debug\example 2.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 8th\example 2\example 2\obj\Debug\example 2.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 8th\example 2\example 2\obj\Debug\example 2.exe
+D:\Luminar\C#\July 8th\example 2\example 2\obj\Debug\example 2.pdb

@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 3rd\1d Array\1d Array\bin\Debug\1d Array.exe.config
+D:\Luminar\C#\July 3rd\1d Array\1d Array\bin\Debug\1d Array.exe
+D:\Luminar\C#\July 3rd\1d Array\1d Array\bin\Debug\1d Array.pdb
+D:\Luminar\C#\July 3rd\1d Array\1d Array\obj\Debug\1d Array.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 3rd\1d Array\1d Array\obj\Debug\1d Array.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 3rd\1d Array\1d Array\obj\Debug\1d Array.exe
+D:\Luminar\C#\July 3rd\1d Array\1d Array\obj\Debug\1d Array.pdb

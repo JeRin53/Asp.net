@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 10th\Generic\Generic\bin\Debug\Generic.exe.config
+D:\Luminar\C#\July 10th\Generic\Generic\bin\Debug\Generic.exe
+D:\Luminar\C#\July 10th\Generic\Generic\bin\Debug\Generic.pdb
+D:\Luminar\C#\July 10th\Generic\Generic\obj\Debug\Generic.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 10th\Generic\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 10th\Generic\Generic\obj\Debug\Generic.exe
+D:\Luminar\C#\July 10th\Generic\Generic\obj\Debug\Generic.pdb

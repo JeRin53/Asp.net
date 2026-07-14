@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 10th\List using generics\List using generics\bin\Debug\List using generics.exe.config
+D:\Luminar\C#\July 10th\List using generics\List using generics\bin\Debug\List using generics.exe
+D:\Luminar\C#\July 10th\List using generics\List using generics\bin\Debug\List using generics.pdb
+D:\Luminar\C#\July 10th\List using generics\List using generics\obj\Debug\List using generics.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 10th\List using generics\List using generics\obj\Debug\List using generics.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 10th\List using generics\List using generics\obj\Debug\List using generics.exe
+D:\Luminar\C#\July 10th\List using generics\List using generics\obj\Debug\List using generics.pdb

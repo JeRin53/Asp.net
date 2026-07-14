@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\bin\Debug\Lamda example.exe.config
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\bin\Debug\Lamda example.exe
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\bin\Debug\Lamda example.pdb
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\obj\Debug\Lamda example.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\obj\Debug\Lamda example.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\obj\Debug\Lamda example.exe
+D:\Luminar\C#\July 14th\Lamda example\Lamda example\obj\Debug\Lamda example.pdb

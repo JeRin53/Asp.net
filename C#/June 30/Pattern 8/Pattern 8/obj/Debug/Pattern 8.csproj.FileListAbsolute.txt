@@ -1,0 +1,7 @@
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\bin\Debug\Pattern 8.exe.config
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\bin\Debug\Pattern 8.exe
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\bin\Debug\Pattern 8.pdb
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\obj\Debug\Pattern 8.csproj.AssemblyReference.cache
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\obj\Debug\Pattern 8.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\obj\Debug\Pattern 8.exe
+D:\Luminar\C#\June 30\Pattern 8\Pattern 8\obj\Debug\Pattern 8.pdb

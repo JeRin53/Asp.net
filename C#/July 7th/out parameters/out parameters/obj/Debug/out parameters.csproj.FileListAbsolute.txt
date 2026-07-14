@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 7th\out parameters\out parameters\bin\Debug\out parameters.exe.config
+D:\Luminar\C#\July 7th\out parameters\out parameters\bin\Debug\out parameters.exe
+D:\Luminar\C#\July 7th\out parameters\out parameters\bin\Debug\out parameters.pdb
+D:\Luminar\C#\July 7th\out parameters\out parameters\obj\Debug\out parameters.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 7th\out parameters\out parameters\obj\Debug\out parameters.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 7th\out parameters\out parameters\obj\Debug\out parameters.exe
+D:\Luminar\C#\July 7th\out parameters\out parameters\obj\Debug\out parameters.pdb

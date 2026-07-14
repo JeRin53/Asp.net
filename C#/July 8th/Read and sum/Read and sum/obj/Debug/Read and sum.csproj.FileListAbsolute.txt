@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\bin\Debug\Read and sum.exe.config
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\bin\Debug\Read and sum.exe
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\bin\Debug\Read and sum.pdb
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\obj\Debug\Read and sum.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\obj\Debug\Read and sum.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\obj\Debug\Read and sum.exe
+D:\Luminar\C#\July 8th\Read and sum\Read and sum\obj\Debug\Read and sum.pdb

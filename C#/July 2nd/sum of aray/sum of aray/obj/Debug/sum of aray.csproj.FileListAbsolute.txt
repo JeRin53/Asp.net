@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\bin\Debug\sum of aray.exe.config
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\bin\Debug\sum of aray.exe
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\bin\Debug\sum of aray.pdb
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\obj\Debug\sum of aray.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\obj\Debug\sum of aray.exe
+D:\Luminar\C#\July 2nd\sum of aray\sum of aray\obj\Debug\sum of aray.pdb

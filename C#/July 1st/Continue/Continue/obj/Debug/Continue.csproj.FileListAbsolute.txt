@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 1st\Continue\Continue\bin\Debug\Continue.exe.config
+D:\Luminar\C#\July 1st\Continue\Continue\bin\Debug\Continue.exe
+D:\Luminar\C#\July 1st\Continue\Continue\bin\Debug\Continue.pdb
+D:\Luminar\C#\July 1st\Continue\Continue\obj\Debug\Continue.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 1st\Continue\Continue\obj\Debug\Continue.exe
+D:\Luminar\C#\July 1st\Continue\Continue\obj\Debug\Continue.pdb

@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\bin\Debug\array for and foreach.exe.config
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\bin\Debug\array for and foreach.exe
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\bin\Debug\array for and foreach.pdb
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\obj\Debug\array for and foreach.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\obj\Debug\array for and foreach.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\obj\Debug\array for and foreach.exe
+D:\Luminar\C#\July 7th\array for and foreach\array for and foreach\obj\Debug\array for and foreach.pdb

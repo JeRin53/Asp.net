@@ -1,0 +1,7 @@
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\bin\Debug\Pattern 5.exe.config
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\bin\Debug\Pattern 5.exe
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\bin\Debug\Pattern 5.pdb
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\obj\Debug\Pattern 5.csproj.AssemblyReference.cache
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\obj\Debug\Pattern 5.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\obj\Debug\Pattern 5.exe
+D:\Luminar\C#\June 30\Pattern 5\Pattern 5\obj\Debug\Pattern 5.pdb

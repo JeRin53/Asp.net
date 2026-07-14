@@ -1,0 +1,7 @@
+D:\Luminar\C#\Practise\sorting\sorting\bin\Debug\sorting.exe.config
+D:\Luminar\C#\Practise\sorting\sorting\bin\Debug\sorting.exe
+D:\Luminar\C#\Practise\sorting\sorting\bin\Debug\sorting.pdb
+D:\Luminar\C#\Practise\sorting\sorting\obj\Debug\sorting.csproj.AssemblyReference.cache
+D:\Luminar\C#\Practise\sorting\sorting\obj\Debug\sorting.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\Practise\sorting\sorting\obj\Debug\sorting.exe
+D:\Luminar\C#\Practise\sorting\sorting\obj\Debug\sorting.pdb

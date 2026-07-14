@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 14th\Delegate\Delegate\bin\Debug\Delegate.exe.config
+D:\Luminar\C#\July 14th\Delegate\Delegate\bin\Debug\Delegate.exe
+D:\Luminar\C#\July 14th\Delegate\Delegate\bin\Debug\Delegate.pdb
+D:\Luminar\C#\July 14th\Delegate\Delegate\obj\Debug\Delegate.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 14th\Delegate\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 14th\Delegate\Delegate\obj\Debug\Delegate.exe
+D:\Luminar\C#\July 14th\Delegate\Delegate\obj\Debug\Delegate.pdb

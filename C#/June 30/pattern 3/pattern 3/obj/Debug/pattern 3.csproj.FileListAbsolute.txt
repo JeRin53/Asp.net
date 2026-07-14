@@ -1,0 +1,7 @@
+D:\Luminar\C#\June 30\pattern 3\pattern 3\bin\Debug\pattern 3.exe.config
+D:\Luminar\C#\June 30\pattern 3\pattern 3\bin\Debug\pattern 3.exe
+D:\Luminar\C#\June 30\pattern 3\pattern 3\bin\Debug\pattern 3.pdb
+D:\Luminar\C#\June 30\pattern 3\pattern 3\obj\Debug\pattern 3.csproj.AssemblyReference.cache
+D:\Luminar\C#\June 30\pattern 3\pattern 3\obj\Debug\pattern 3.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\June 30\pattern 3\pattern 3\obj\Debug\pattern 3.exe
+D:\Luminar\C#\June 30\pattern 3\pattern 3\obj\Debug\pattern 3.pdb

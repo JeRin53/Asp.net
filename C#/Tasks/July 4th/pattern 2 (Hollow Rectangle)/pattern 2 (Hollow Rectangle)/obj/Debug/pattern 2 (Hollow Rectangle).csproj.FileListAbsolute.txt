@@ -1,0 +1,7 @@
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\bin\Debug\pattern 2 (Hollow Rectangle).exe.config
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\bin\Debug\pattern 2 (Hollow Rectangle).exe
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\bin\Debug\pattern 2 (Hollow Rectangle).pdb
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\obj\Debug\pattern 2 (Hollow Rectangle).csproj.AssemblyReference.cache
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\obj\Debug\pattern 2 (Hollow Rectangle).csproj.CoreCompileInputs.cache
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\obj\Debug\pattern 2 (Hollow Rectangle).exe
+D:\Luminar\C#\Tasks\July 4th\pattern 2 (Hollow Rectangle)\pattern 2 (Hollow Rectangle)\obj\Debug\pattern 2 (Hollow Rectangle).pdb

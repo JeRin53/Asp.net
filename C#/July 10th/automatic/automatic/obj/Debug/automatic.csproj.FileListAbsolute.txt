@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 10th\automatic\automatic\bin\Debug\automatic.exe.config
+D:\Luminar\C#\July 10th\automatic\automatic\bin\Debug\automatic.exe
+D:\Luminar\C#\July 10th\automatic\automatic\bin\Debug\automatic.pdb
+D:\Luminar\C#\July 10th\automatic\automatic\obj\Debug\automatic.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 10th\automatic\automatic\obj\Debug\automatic.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 10th\automatic\automatic\obj\Debug\automatic.exe
+D:\Luminar\C#\July 10th\automatic\automatic\obj\Debug\automatic.pdb

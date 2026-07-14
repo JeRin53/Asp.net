@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 6th\Function\Function\bin\Debug\Function.exe.config
+D:\Luminar\C#\July 6th\Function\Function\bin\Debug\Function.exe
+D:\Luminar\C#\July 6th\Function\Function\bin\Debug\Function.pdb
+D:\Luminar\C#\July 6th\Function\Function\obj\Debug\Function.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 6th\Function\Function\obj\Debug\Function.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 6th\Function\Function\obj\Debug\Function.exe
+D:\Luminar\C#\July 6th\Function\Function\obj\Debug\Function.pdb

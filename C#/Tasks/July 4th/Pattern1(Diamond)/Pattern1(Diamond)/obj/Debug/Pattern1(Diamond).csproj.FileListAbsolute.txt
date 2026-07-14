@@ -1,0 +1,7 @@
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\bin\Debug\Pattern1(Diamond).exe.config
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\bin\Debug\Pattern1(Diamond).exe
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\bin\Debug\Pattern1(Diamond).pdb
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\obj\Debug\Pattern1(Diamond).csproj.AssemblyReference.cache
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\obj\Debug\Pattern1(Diamond).csproj.CoreCompileInputs.cache
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\obj\Debug\Pattern1(Diamond).exe
+D:\Luminar\C#\Tasks\July 4th\Pattern1(Diamond)\Pattern1(Diamond)\obj\Debug\Pattern1(Diamond).pdb

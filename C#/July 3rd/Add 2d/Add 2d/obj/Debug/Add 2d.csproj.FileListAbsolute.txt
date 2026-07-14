@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\bin\Debug\Add 2d.exe.config
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\bin\Debug\Add 2d.exe
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\bin\Debug\Add 2d.pdb
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\obj\Debug\Add 2d.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\obj\Debug\Add 2d.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\obj\Debug\Add 2d.exe
+D:\Luminar\C#\July 3rd\Add 2d\Add 2d\obj\Debug\Add 2d.pdb

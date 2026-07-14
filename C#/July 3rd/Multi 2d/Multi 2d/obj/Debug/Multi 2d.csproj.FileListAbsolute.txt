@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\bin\Debug\Multi 2d.exe.config
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\bin\Debug\Multi 2d.exe
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\bin\Debug\Multi 2d.pdb
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\obj\Debug\Multi 2d.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\obj\Debug\Multi 2d.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\obj\Debug\Multi 2d.exe
+D:\Luminar\C#\July 3rd\Multi 2d\Multi 2d\obj\Debug\Multi 2d.pdb

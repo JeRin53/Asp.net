@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\bin\Debug\Hierarchial.exe.config
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\bin\Debug\Hierarchial.exe
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\bin\Debug\Hierarchial.pdb
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\obj\Debug\Hierarchial.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\obj\Debug\Hierarchial.exe
+D:\Luminar\C#\July 8th\Hierarchial\Hierarchial\obj\Debug\Hierarchial.pdb

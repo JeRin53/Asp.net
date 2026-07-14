@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\bin\Debug\Input sum and product.exe.config
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\bin\Debug\Input sum and product.exe
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\bin\Debug\Input sum and product.pdb
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\obj\Debug\Input sum and product.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\obj\Debug\Input sum and product.exe
+D:\Luminar\C#\July 7th\Input sum and product\Input sum and product\obj\Debug\Input sum and product.pdb

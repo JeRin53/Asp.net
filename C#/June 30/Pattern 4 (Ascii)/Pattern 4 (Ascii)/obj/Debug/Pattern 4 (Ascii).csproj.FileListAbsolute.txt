@@ -1,0 +1,6 @@
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\bin\Debug\Pattern 4 (Ascii).exe.config
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\bin\Debug\Pattern 4 (Ascii).exe
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\bin\Debug\Pattern 4 (Ascii).pdb
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\obj\Debug\Pattern 4 (Ascii).csproj.CoreCompileInputs.cache
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\obj\Debug\Pattern 4 (Ascii).exe
+D:\Luminar\C#\June 30\Pattern 4 (Ascii)\Pattern 4 (Ascii)\obj\Debug\Pattern 4 (Ascii).pdb

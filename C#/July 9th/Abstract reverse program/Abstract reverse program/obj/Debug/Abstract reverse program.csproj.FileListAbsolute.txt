@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\bin\Debug\Abstract reverse program.exe.config
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\bin\Debug\Abstract reverse program.exe
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\bin\Debug\Abstract reverse program.pdb
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\obj\Debug\Abstract reverse program.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\obj\Debug\Abstract reverse program.exe
+D:\Luminar\C#\July 9th\Abstract reverse program\Abstract reverse program\obj\Debug\Abstract reverse program.pdb

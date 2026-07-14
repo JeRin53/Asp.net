@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 1st\goto\goto\bin\Debug\@goto.exe.config
+D:\Luminar\C#\July 1st\goto\goto\bin\Debug\@goto.exe
+D:\Luminar\C#\July 1st\goto\goto\bin\Debug\@goto.pdb
+D:\Luminar\C#\July 1st\goto\goto\obj\Debug\goto.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 1st\goto\goto\obj\Debug\goto.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 1st\goto\goto\obj\Debug\@goto.exe
+D:\Luminar\C#\July 1st\goto\goto\obj\Debug\@goto.pdb

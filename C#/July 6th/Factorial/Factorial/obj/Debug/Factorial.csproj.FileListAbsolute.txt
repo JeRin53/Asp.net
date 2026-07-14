@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 6th\Factorial\Factorial\obj\Debug\Factorial.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 6th\Factorial\Factorial\obj\Debug\Factorial.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 6th\Factorial\Factorial\bin\Debug\Factorial.exe.config
+D:\Luminar\C#\July 6th\Factorial\Factorial\bin\Debug\Factorial.exe
+D:\Luminar\C#\July 6th\Factorial\Factorial\bin\Debug\Factorial.pdb
+D:\Luminar\C#\July 6th\Factorial\Factorial\obj\Debug\Factorial.exe
+D:\Luminar\C#\July 6th\Factorial\Factorial\obj\Debug\Factorial.pdb

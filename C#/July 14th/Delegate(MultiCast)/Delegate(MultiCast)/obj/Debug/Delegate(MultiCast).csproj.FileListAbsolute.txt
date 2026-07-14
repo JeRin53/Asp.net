@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\bin\Debug\Delegate(MultiCast).exe.config
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\bin\Debug\Delegate(MultiCast).exe
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\bin\Debug\Delegate(MultiCast).pdb
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\obj\Debug\Delegate(MultiCast).csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\obj\Debug\Delegate(MultiCast).exe
+D:\Luminar\C#\July 14th\Delegate(MultiCast)\Delegate(MultiCast)\obj\Debug\Delegate(MultiCast).pdb

@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\bin\Debug\Input Paramters.exe.config
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\bin\Debug\Input Paramters.exe
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\bin\Debug\Input Paramters.pdb
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\obj\Debug\Input Paramters.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\obj\Debug\Input Paramters.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\obj\Debug\Input Paramters.exe
+D:\Luminar\C#\July 7th\Input Paramters\Input Paramters\obj\Debug\Input Paramters.pdb

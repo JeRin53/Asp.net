@@ -1,0 +1,6 @@
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\bin\Debug\Pattern 6.exe.config
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\bin\Debug\Pattern 6.exe
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\bin\Debug\Pattern 6.pdb
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\obj\Debug\Pattern 6.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\obj\Debug\Pattern 6.exe
+D:\Luminar\C#\June 30\Pattern 6\Pattern 6\obj\Debug\Pattern 6.pdb
