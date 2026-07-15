@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 15th\Array list\Array list\bin\Debug\Array list.exe.config
+D:\Luminar\C#\July 15th\Array list\Array list\bin\Debug\Array list.exe
+D:\Luminar\C#\July 15th\Array list\Array list\bin\Debug\Array list.pdb
+D:\Luminar\C#\July 15th\Array list\Array list\obj\Debug\Array list.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 15th\Array list\Array list\obj\Debug\Array list.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 15th\Array list\Array list\obj\Debug\Array list.exe
+D:\Luminar\C#\July 15th\Array list\Array list\obj\Debug\Array list.pdb

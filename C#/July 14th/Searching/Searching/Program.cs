@@ -24,12 +24,20 @@ namespace Searching
             }
             Console.WriteLine("Enter the element to be searched:");
             int s = Convert.ToInt32(Console.ReadLine());
-            for(int i = 0; i <= arr.Length; i++)
+            List<int> item = new List<int>();
+            List<int> pos = new List<int>();
+            for(int i = 0; i < n; i++)
             {
                 if (arr[i] == s)
                 {
-                    Console.WriteLine("Element found at pos:{0}",i);
+                    item.Add(arr[i]);
+                    pos.Add(i);
                 }
+            }
+            Console.WriteLine("the items are:");
+            for(int d = 0; d < item.Count; d++)
+            {
+                Console.WriteLine(item[d] +","+ pos[d]);
             }
             Console.ReadKey();
 

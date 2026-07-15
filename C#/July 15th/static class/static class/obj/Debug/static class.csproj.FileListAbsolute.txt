@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 15th\static class\static class\bin\Debug\static class.exe.config
+D:\Luminar\C#\July 15th\static class\static class\bin\Debug\static class.exe
+D:\Luminar\C#\July 15th\static class\static class\bin\Debug\static class.pdb
+D:\Luminar\C#\July 15th\static class\static class\obj\Debug\static class.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 15th\static class\static class\obj\Debug\static class.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 15th\static class\static class\obj\Debug\static class.exe
+D:\Luminar\C#\July 15th\static class\static class\obj\Debug\static class.pdb

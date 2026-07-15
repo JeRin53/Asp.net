@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 15th\Partial class\Partial class\bin\Debug\Partial class.exe.config
+D:\Luminar\C#\July 15th\Partial class\Partial class\bin\Debug\Partial class.exe
+D:\Luminar\C#\July 15th\Partial class\Partial class\bin\Debug\Partial class.pdb
+D:\Luminar\C#\July 15th\Partial class\Partial class\obj\Debug\Partial class.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 15th\Partial class\Partial class\obj\Debug\Partial class.exe
+D:\Luminar\C#\July 15th\Partial class\Partial class\obj\Debug\Partial class.pdb
