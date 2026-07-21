@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 16th\throw\throw\bin\Debug\@throw.exe.config
+D:\Luminar\C#\July 16th\throw\throw\bin\Debug\@throw.exe
+D:\Luminar\C#\July 16th\throw\throw\bin\Debug\@throw.pdb
+D:\Luminar\C#\July 16th\throw\throw\obj\Debug\throw.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 16th\throw\throw\obj\Debug\throw.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 16th\throw\throw\obj\Debug\@throw.exe
+D:\Luminar\C#\July 16th\throw\throw\obj\Debug\@throw.pdb

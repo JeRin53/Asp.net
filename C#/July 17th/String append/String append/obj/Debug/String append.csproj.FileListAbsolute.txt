@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 17th\String append\String append\bin\Debug\String append.exe.config
+D:\Luminar\C#\July 17th\String append\String append\bin\Debug\String append.exe
+D:\Luminar\C#\July 17th\String append\String append\bin\Debug\String append.pdb
+D:\Luminar\C#\July 17th\String append\String append\obj\Debug\String append.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 17th\String append\String append\obj\Debug\String append.exe
+D:\Luminar\C#\July 17th\String append\String append\obj\Debug\String append.pdb

@@ -1,0 +1,6 @@
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\bin\Debug\String and string builder.exe.config
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\bin\Debug\String and string builder.exe
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\bin\Debug\String and string builder.pdb
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\obj\Debug\String and string builder.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\obj\Debug\String and string builder.exe
+D:\Luminar\C#\July 16th\String and string builder\String and string builder\obj\Debug\String and string builder.pdb

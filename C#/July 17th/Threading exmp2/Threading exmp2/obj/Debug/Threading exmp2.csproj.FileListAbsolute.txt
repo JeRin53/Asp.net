@@ -1,0 +1,7 @@
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\bin\Debug\Threading exmp2.exe.config
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\bin\Debug\Threading exmp2.exe
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\bin\Debug\Threading exmp2.pdb
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\obj\Debug\Threading exmp2.csproj.AssemblyReference.cache
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\obj\Debug\Threading exmp2.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\obj\Debug\Threading exmp2.exe
+D:\Luminar\C#\July 17th\Threading exmp2\Threading exmp2\obj\Debug\Threading exmp2.pdb
