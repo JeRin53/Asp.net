@@ -1,0 +1,7 @@
+D:\Luminar\C#\Exam\question 3\question 3\bin\Debug\question 3.exe.config
+D:\Luminar\C#\Exam\question 3\question 3\bin\Debug\question 3.exe
+D:\Luminar\C#\Exam\question 3\question 3\bin\Debug\question 3.pdb
+D:\Luminar\C#\Exam\question 3\question 3\obj\Debug\question 3.csproj.AssemblyReference.cache
+D:\Luminar\C#\Exam\question 3\question 3\obj\Debug\question 3.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\Exam\question 3\question 3\obj\Debug\question 3.exe
+D:\Luminar\C#\Exam\question 3\question 3\obj\Debug\question 3.pdb

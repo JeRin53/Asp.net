@@ -1,0 +1,6 @@
+D:\Luminar\C#\Exam\Question 2\Question 2\bin\Debug\Question 2.exe.config
+D:\Luminar\C#\Exam\Question 2\Question 2\bin\Debug\Question 2.exe
+D:\Luminar\C#\Exam\Question 2\Question 2\bin\Debug\Question 2.pdb
+D:\Luminar\C#\Exam\Question 2\Question 2\obj\Debug\Question 2.csproj.CoreCompileInputs.cache
+D:\Luminar\C#\Exam\Question 2\Question 2\obj\Debug\Question 2.exe
+D:\Luminar\C#\Exam\Question 2\Question 2\obj\Debug\Question 2.pdb

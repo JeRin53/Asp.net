@@ -11,6 +11,10 @@
         }
         .auto-style2 {
             text-align: right;
+            width: 579px;
+        }
+        .auto-style3 {
+            width: 579px;
         }
     </style>
 </head>
@@ -20,7 +24,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -30,7 +34,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -42,7 +46,7 @@
                 <td id="lbl1">
                     <asp:Label ID="lbl1" runat="server" Text="Number 1"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style3">
                     <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
                 </td>
                 <td id="lbl2">
@@ -58,7 +62,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -68,7 +72,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -80,7 +84,7 @@
                 <td>
                     <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Size="Large" Height="115px" OnClick="Button1_Click" Text="+" Width="141px" />
                 </td>
-                <td>
+                <td class="auto-style3">
                     <asp:Button ID="Button2" runat="server" Font-Bold="True" Font-Size="Large" Height="115px" OnClick="Button2_Click" Text="-" Width="141px" />
                 </td>
                 <td>
@@ -96,7 +100,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style3">
                     <br />
                     <br />
                 </td>
