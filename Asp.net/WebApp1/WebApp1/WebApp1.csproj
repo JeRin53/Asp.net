@@ -87,14 +87,61 @@
   <ItemGroup>
     <Content Include="20210919_103901.jpg" />
     <Content Include="20210922_115033.jpg" />
+    <Content Include="First.aspx" />
+    <Content Include="Page2.aspx" />
+    <Content Include="Page3.aspx" />
+    <Content Include="Second.aspx" />
+    <Content Include="Third.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="Page1.aspx" />
     <Content Include="WebForm_1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="First.aspx.cs">
+      <DependentUpon>First.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="First.aspx.designer.cs">
+      <DependentUpon>First.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page3.aspx.cs">
+      <DependentUpon>Page3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page3.aspx.designer.cs">
+      <DependentUpon>Page3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page3.spx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page3.spx.designer.cs">
+      <DependentUpon>Page3.spx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Second.aspx.cs">
+      <DependentUpon>Second.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Second.aspx.designer.cs">
+      <DependentUpon>Second.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Third.aspx.cs">
+      <DependentUpon>Third.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Third.aspx.designer.cs">
+      <DependentUpon>Third.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,6 +162,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page1.aspx.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page1.aspx.designer.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm_1.aspx.cs">
       <DependentUpon>WebForm_1.aspx</DependentUpon>

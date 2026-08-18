@@ -1,0 +1,6 @@
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\bin\Debug\Dal.dll
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\bin\Debug\Dal.pdb
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\obj\Debug\Dal.dll
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Dal\obj\Debug\Dal.pdb

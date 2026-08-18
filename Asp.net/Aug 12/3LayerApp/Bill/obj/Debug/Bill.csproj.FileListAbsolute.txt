@@ -1,0 +1,9 @@
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\bin\Debug\Bill.dll
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\bin\Debug\Bill.pdb
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\bin\Debug\Dal.dll
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\bin\Debug\Dal.pdb
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\obj\Debug\Bill.csproj.AssemblyReference.cache
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\obj\Debug\Bill.csproj.CoreCompileInputs.cache
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\obj\Debug\Bill.csproj.CopyComplete
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\obj\Debug\Bill.dll
+D:\Luminar\Asp.net\Aug 12\3LayerApp\Bill\obj\Debug\Bill.pdb

@@ -57,3 +57,14 @@ D:\Luminar\Asp.net\WebApp1\WebApp1\obj\Debug\WebApp1.csproj.CoreCompileInputs.ca
 D:\Luminar\Asp.net\WebApp1\WebApp1\obj\Debug\WebApp1.csproj.CopyComplete
 D:\Luminar\Asp.net\WebApp1\WebApp1\obj\Debug\WebApp1.dll
 D:\Luminar\Asp.net\WebApp1\WebApp1\obj\Debug\WebApp1.pdb
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\Microsoft.Web.Infrastructure.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.Helpers.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.Razor.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.Deployment.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.Razor.dll
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.Helpers.xml
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.Razor.xml
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.xml
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.Deployment.xml
+D:\Luminar\Asp.net\WebApp1\WebApp1\bin\System.Web.WebPages.Razor.xml

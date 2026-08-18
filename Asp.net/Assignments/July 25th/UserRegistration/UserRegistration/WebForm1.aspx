@@ -304,10 +304,10 @@
                         <asp:Label ID="Label6" runat="server" Text="Gender"></asp:Label>
                     </td>
                     <td>
-                        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-                            <asp:ListItem Value="0">Male</asp:ListItem>
-                            <asp:ListItem Value="1">Female</asp:ListItem>
-                        </asp:CheckBoxList>
+                        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                            <asp:ListItem>Male</asp:ListItem>
+                            <asp:ListItem>Female</asp:ListItem>
+                        </asp:RadioButtonList>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -496,10 +496,12 @@
                         <asp:Label ID="Label10" runat="server" Text="Username"></asp:Label>
                     </td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" runat="server" AutoPostBack="True" OnTextChanged="TextBox6_TextChanged"></asp:TextBox>
                     </td>
                     <td class="auto-style8">
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox6" ErrorMessage="* Enter  username"></asp:RequiredFieldValidator>
+                    &nbsp;&nbsp;
+                        <asp:Label ID="Label35" runat="server" Text="Label" Visible="False"></asp:Label>
                     </td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
@@ -632,7 +634,9 @@
                     <td class="auto-style3">
                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Display" />
                     </td>
-                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style8">
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Register" />
+                    </td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
@@ -652,7 +656,9 @@
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label34" runat="server" Text="Label"></asp:Label>
+                    </td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>

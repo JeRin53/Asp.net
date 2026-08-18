@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37327.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService1Aug12", "WCFService1Aug12\", "{6BD0A1B0-8AE9-4C9B-960E-85EDE7D3D886}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51829"
+		Debug.AspNetCompiler.PhysicalPath = "WCFService1Aug12\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51829\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51829"
+		Release.AspNetCompiler.PhysicalPath = "WCFService1Aug12\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51829\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51829"
+		SlnRelativePath = "WCFService1Aug12\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD0A1B0-8AE9-4C9B-960E-85EDE7D3D886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD0A1B0-8AE9-4C9B-960E-85EDE7D3D886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D02B55-8D2C-4E1D-9CC8-63D6DCB4E507}
+	EndGlobalSection
+EndGlobal
