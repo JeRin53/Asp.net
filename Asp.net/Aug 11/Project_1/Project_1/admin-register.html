@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Admin Registration - Fruitables</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Fruitables Admin Registration Form" name="keywords">
+        <meta content="Register as an administrator at Fruitables organic store." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
+                            <a href="cart.html" class="nav-item nav-link">Shop Cart</a>
+                            <a href="chackout.html" class="nav-item nav-link">Checkout</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <a href="cart.html" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                                <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                            </a>
+                            <!-- User Dropdown Menu -->
+                            <div class="dropdown my-auto user-nav-dropdown">
+                                <a href="#" class="my-auto text-primary no-caret" id="userMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Account Menu">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end user-dropdown-menu" aria-labelledby="userMenuDropdown">
+                                    <li><h6 class="dropdown-header"><i class="fas fa-sign-in-alt me-2"></i>Account Access</h6></li>
+                                    <li><a class="dropdown-item" href="login.html"><i class="fas fa-key"></i>Login</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><h6 class="dropdown-header"><i class="fas fa-user-plus me-2"></i>Registration</h6></li>
+                                    <li><a class="dropdown-item" href="user-register.html"><i class="fas fa-user"></i>User Registration</a></li>
+                                    <li><a class="dropdown-item active bg-primary text-white" href="admin-register.html"><i class="fas fa-user-shield text-white"></i>Admin Registration</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Single Page Header start -->
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-white display-6">Admin Registration</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item active text-white">Admin Registration</li>
+            </ol>
+        </div>
+        <!-- Single Page Header End -->
+
+
+        <!-- Registration Section Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="auth-card">
+                            <div class="auth-card-header" style="background: linear-gradient(135deg, #45595b 0%, #2c3e50 100%);">
+                                <div class="mb-2">
+                                    <i class="fas fa-user-shield fa-3x text-secondary"></i>
+                                </div>
+                                <h3 class="text-white mb-1">Create Administrator Account</h3>
+                                <p class="text-white-50 mb-0">Register staff credentials for Fruitables Management</p>
+                            </div>
+                            <div class="auth-card-body p-4 p-md-5">
+
+                                <!-- Database Schema Banner -->
+                                <div class="alert alert-light border border-secondary text-dark rounded-3 mb-4 d-flex align-items-center">
+                                    <i class="fas fa-shield-alt text-secondary fa-2x me-3"></i>
+                                    <div class="small">
+                                        <strong>Database Mapping:</strong> Saves to <code>dbo.Admin_tab</code> and generates credentials in <code>dbo.Login_tab</code> (Log_Type = 'Admin', Reg_Id = Admin_Id).<br>
+                                        <span class="text-danger fw-bold">* Note:</span> <code>Admin_Id</code> is Primary Key &amp; <strong>Non-Auto Incremented</strong> (Manually specified ID).
+                                    </div>
+                                </div>
+
+                                <!-- ASP.NET Form Note: In .aspx replace with <form id="form1" runat="server"> and use <asp:TextBox> / <asp:Button> -->
+                                <form id="adminRegisterForm" method="post" action="#">
+                                    
+                                    <!-- Section 1: Admin Profile Information (dbo.Admin_tab) -->
+                                    <h5 class="text-dark border-bottom pb-2 mb-4">
+                                        <i class="fas fa-id-badge text-secondary me-2"></i>Admin Info (dbo.Admin_tab)
+                                    </h5>
+
+                                    <div class="row g-3 mb-4">
+                                        
+                                        <!-- Admin_Id (PK, int, not null - Non Auto Incremented) -->
+                                        <div class="col-md-12">
+                                            <label for="txtAdminId" class="form-label fw-bold text-dark">
+                                                Admin ID <span class="badge-pk">Primary Key (Manual)</span> <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-id-card-alt input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtAdminId" runat="server" CssClass="form-control py-3" placeholder="Enter unique Admin ID (e.g. 501)" required></asp:TextBox> -->
+                                                <input type="number" class="form-control py-3" id="txtAdminId" name="txtAdminId" placeholder="e.g. 501" required min="1">
+                                            </div>
+                                            <small class="text-muted">Enter a unique integer Admin ID (Non-auto incremented)</small>
+                                        </div>
+
+                                        <!-- Name (varchar(100), not null) -->
+                                        <div class="col-md-6">
+                                            <label for="txtName" class="form-label fw-bold text-dark">
+                                                Administrator Name <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-user-tie input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtName" runat="server" CssClass="form-control py-3" placeholder="Enter Administrator Name" required></asp:TextBox> -->
+                                                <input type="text" class="form-control py-3" id="txtName" name="txtName" placeholder="e.g. Sarah Jenkins" required maxlength="100">
+                                            </div>
+                                        </div>
+
+                                        <!-- Email (varchar(100), not null) -->
+                                        <div class="col-md-6">
+                                            <label for="txtEmail" class="form-label fw-bold text-dark">
+                                                Official Email <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-envelope input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" CssClass="form-control py-3" placeholder="admin@fruitables.com" required></asp:TextBox> -->
+                                                <input type="email" class="form-control py-3" id="txtEmail" name="txtEmail" placeholder="e.g. admin@fruitables.com" required maxlength="100">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Section 2: Account Login Credentials (dbo.Login_tab) -->
+                                    <h5 class="text-dark border-bottom pb-2 mb-4 mt-4">
+                                        <i class="fas fa-lock text-secondary me-2"></i>Admin Login Credentials (dbo.Login_tab)
+                                    </h5>
+
+                                    <div class="row g-3 mb-4">
+                                        
+                                        <!-- Username (varchar(50), not null) -->
+                                        <div class="col-12">
+                                            <label for="txtAdminUsername" class="form-label fw-bold text-dark">
+                                                Admin Username <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-user-circle input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtAdminUsername" runat="server" CssClass="form-control py-3" placeholder="Choose Admin Username" required></asp:TextBox> -->
+                                                <input type="text" class="form-control py-3" id="txtAdminUsername" name="txtAdminUsername" placeholder="e.g. admin_sarah" required maxlength="50">
+                                            </div>
+                                        </div>
+
+                                        <!-- Password (varchar(255), not null) -->
+                                        <div class="col-md-6">
+                                            <label for="txtAdminPassword" class="form-label fw-bold text-dark">
+                                                Admin Password <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-key input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtAdminPassword" runat="server" TextMode="Password" CssClass="form-control py-3" placeholder="Enter secure password" required></asp:TextBox> -->
+                                                <input type="password" class="form-control py-3" id="txtAdminPassword" name="txtAdminPassword" placeholder="Enter secure password" required maxlength="255">
+                                            </div>
+                                        </div>
+
+                                        <!-- Confirm Password -->
+                                        <div class="col-md-6">
+                                            <label for="txtConfirmAdminPassword" class="form-label fw-bold text-dark">
+                                                Confirm Password <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-check-double input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtConfirmAdminPassword" runat="server" TextMode="Password" CssClass="form-control py-3" placeholder="Confirm password" required></asp:TextBox> -->
+                                                <input type="password" class="form-control py-3" id="txtConfirmAdminPassword" name="txtConfirmAdminPassword" placeholder="Re-type password" required maxlength="255">
+                                            </div>
+                                            <div id="adminPasswordMismatch" class="text-danger small mt-1 d-none">Passwords do not match!</div>
+                                        </div>
+
+                                        <!-- Hidden / Default Log_Type value -->
+                                        <input type="hidden" id="hfLogType" name="hfLogType" value="Admin">
+
+                                    </div>
+
+                                    <!-- Security Acknowledgement -->
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" id="chkAdminTerms" required>
+                                        <label class="form-check-label text-muted small" for="chkAdminTerms">
+                                            I confirm that I am authorized to register as a Fruitables System Administrator.
+                                        </label>
+                                    </div>
+
+                                    <!-- Action Buttons -->
+                                    <div class="row g-3 mb-4">
+                                        <div class="col-md-8">
+                                            <!-- ASP.NET: <asp:Button ID="btnAdminRegister" runat="server" Text="Register Administrator" CssClass="btn btn-secondary text-dark w-100 py-3 rounded-3 fw-bold shadow-sm" OnClick="btnAdminRegister_Click" /> -->
+                                            <button type="submit" id="btnAdminRegister" class="btn btn-secondary text-dark w-100 py-3 rounded-3 fw-bold shadow-sm">
+                                                <i class="fas fa-shield-alt me-2"></i>Complete Admin Registration
+                                            </button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button type="reset" class="btn btn-outline-secondary w-100 py-3 rounded-3">
+                                                <i class="fas fa-undo me-1"></i>Reset Form
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bottom Navigation Links -->
+                                    <div class="text-center pt-3 border-top">
+                                        <p class="text-muted mb-2">Already have an admin account? <a href="login.html" class="text-primary fw-bold">Sign In Here</a></p>
+                                        <p class="text-muted small mb-0">Are you a regular customer? <a href="user-register.html" class="text-primary fw-bold">Register as User</a></p>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Registration Section End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                    <div class="row g-4">
+                        <div class="col-lg-3">
+                            <a href="index.html">
+                                <h1 class="text-primary mb-0">Fruitables</h1>
+                                <p class="text-secondary mb-0">Fresh products</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mx-auto">
+                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
+                                <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex justify-content-end pt-3">
+                                <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Why People Like us!</h4>
+                            <p class="mb-4">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                            <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Shop Info</h4>
+                            <a class="btn-link" href="">About Us</a>
+                            <a class="btn-link" href="">Contact Us</a>
+                            <a class="btn-link" href="">Privacy Policy</a>
+                            <a class="btn-link" href="">Terms & Condition</a>
+                            <a class="btn-link" href="">Return Policy</a>
+                            <a class="btn-link" href="">FAQs & Help</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Account</h4>
+                            <a class="btn-link" href="login.html">My Account</a>
+                            <a class="btn-link" href="shop.html">Shop details</a>
+                            <a class="btn-link" href="cart.html">Shopping Cart</a>
+                            <a class="btn-link" href="user-register.html">User Registration</a>
+                            <a class="btn-link" href="admin-register.html">Admin Registration</a>
+                            <a class="btn-link" href="admin-page.html">Admin Portal</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Address: 1429 Netus Rd, NY 48247</p>
+                            <p>Email: Example@gmail.com</p>
+                            <p>Phone: +0123 4567 8910</p>
+                            <p>Payment Accepted</p>
+                            <img src="img/payment.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Fruitables</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            // Client-side Password Match & Validation Handler
+            const form = document.getElementById('adminRegisterForm');
+            const pwd = document.getElementById('txtAdminPassword');
+            const confirmPwd = document.getElementById('txtConfirmAdminPassword');
+            const mismatchDiv = document.getElementById('adminPasswordMismatch');
+
+            form.addEventListener('submit', function(e) {
+                if (pwd.value !== confirmPwd.value) {
+                    e.preventDefault();
+                    mismatchDiv.classList.remove('d-none');
+                    confirmPwd.focus();
+                    return false;
+                } else {
+                    mismatchDiv.classList.add('d-none');
+                    // In static preview: redirect to admin home
+                    alert("Admin Registration Successful! Redirecting to Admin Home...");
+                    window.location.href = "admin-home.html";
+                    e.preventDefault();
+                }
+            });
+        </script>
+    </body>
+
+</html>

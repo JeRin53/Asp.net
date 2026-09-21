@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Add Product - Fruitables Admin</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Fruitables Admin Add Product" name="keywords">
+        <meta content="Add a new fruit/vegetable product to the store catalog." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
+                            <a href="cart.html" class="nav-item nav-link">Shop Cart</a>
+                            <a href="chackout.html" class="nav-item nav-link">Checkout</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <a href="cart.html" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                                <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                            </a>
+                            <!-- User Dropdown Menu -->
+                            <div class="dropdown my-auto user-nav-dropdown">
+                                <a href="#" class="my-auto text-primary no-caret" id="userMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Account Menu">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end user-dropdown-menu" aria-labelledby="userMenuDropdown">
+                                    <li><h6 class="dropdown-header"><i class="fas fa-sign-in-alt me-2"></i>Account Access</h6></li>
+                                    <li><a class="dropdown-item" href="login.html"><i class="fas fa-key"></i>Login</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><h6 class="dropdown-header"><i class="fas fa-user-plus me-2"></i>Registration</h6></li>
+                                    <li><a class="dropdown-item" href="user-register.html"><i class="fas fa-user"></i>User Registration</a></li>
+                                    <li><a class="dropdown-item" href="admin-register.html"><i class="fas fa-user-shield"></i>Admin Registration</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Single Page Header start -->
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-white display-6">Add New Product</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="admin-home.html">Admin Home</a></li>
+                <li class="breadcrumb-item"><a href="admin-home.html">Products</a></li>
+                <li class="breadcrumb-item active text-white">Add Product</li>
+            </ol>
+        </div>
+        <!-- Single Page Header End -->
+
+
+        <!-- Add Product Form Section Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-md-11">
+                        
+                        <!-- Top Navigation Bar for Admin Action -->
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <a href="admin-home.html" class="btn btn-outline-primary rounded-pill px-3">
+                                <i class="fas fa-arrow-left me-1"></i> Back to Admin Home
+                            </a>
+                            <a href="add-category.html" class="btn btn-outline-secondary rounded-pill px-3">
+                                <i class="fas fa-folder-plus me-1"></i> Add Category
+                            </a>
+                        </div>
+
+                        <div class="auth-card">
+                            <div class="auth-card-header" style="background: linear-gradient(135deg, #81c408 0%, #2c3e50 100%);">
+                                <div class="mb-2">
+                                    <i class="fas fa-apple-alt fa-3x text-white"></i>
+                                </div>
+                                <h3 class="text-white mb-1">Add New Product</h3>
+                                <p class="text-white-50 mb-0">Insert item details into <code>dbo.Product_tab</code></p>
+                            </div>
+                            <div class="auth-card-body p-4 p-md-5">
+
+                                <!-- Database schema reference info banner -->
+                                <div class="alert alert-light border border-secondary text-dark rounded-3 mb-4 d-flex align-items-center">
+                                    <i class="fas fa-database text-primary fa-2x me-3"></i>
+                                    <div class="small">
+                                        <strong>Target Table:</strong> <code>dbo.Product_tab</code><br>
+                                        <strong>Prod_Id:</strong> <span class="badge bg-success text-white">Primary Key (Auto-Increment / Identity)</span> &bull; <strong>Cat_Id:</strong> Linked to <code>dbo.Category_tab</code>
+                                    </div>
+                                </div>
+
+                                <!-- ASP.NET Note: In .aspx replace with <form id="form1" runat="server" enctype="multipart/form-data"> -->
+                                <form id="addProductForm" method="post" action="#" enctype="multipart/form-data">
+                                    
+                                    <div class="row g-3">
+                                        
+                                        <!-- Prod_Id Info (Auto Increment) -->
+                                        <div class="col-md-4">
+                                            <label class="form-label fw-bold text-dark">
+                                                Product ID (Prod_Id)
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-hashtag input-icon"></i>
+                                                <input type="text" class="form-control bg-light py-3" value="[Auto-Generated]" readonly>
+                                            </div>
+                                            <small class="text-muted">Identity(1,1) Primary Key</small>
+                                        </div>
+
+                                        <!-- Prod_Name (varchar(50), not null) -->
+                                        <div class="col-md-8">
+                                            <label for="txtProdName" class="form-label fw-bold text-dark">
+                                                Product Name (Prod_Name) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-carrot input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtProdName" runat="server" CssClass="form-control py-3" placeholder="e.g. Organic Red Apple" required></asp:TextBox> -->
+                                                <input type="text" class="form-control py-3" id="txtProdName" name="txtProdName" placeholder="e.g. Organic Gala Apples" required maxlength="50">
+                                            </div>
+                                        </div>
+
+                                        <!-- Cat_Id (Foreign Key to dbo.Category_tab, not null) -->
+                                        <div class="col-md-6">
+                                            <label for="ddlCategory" class="form-label fw-bold text-dark">
+                                                Category (Cat_Id) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-th-large input-icon"></i>
+                                                <!-- ASP.NET: <asp:DropDownList ID="ddlCategory" runat="server" CssClass="form-select py-3" DataTextField="Cat_Name" DataValueField="Cat_Id"></asp:DropDownList> -->
+                                                <select class="form-select py-3" id="ddlCategory" name="ddlCategory" required>
+                                                    <option value="" disabled selected>-- Select Category --</option>
+                                                    <option value="1">1 - Fresh Organic Fruits</option>
+                                                    <option value="2">2 - Green Vegetables</option>
+                                                    <option value="3">3 - Exotic Berries</option>
+                                                    <option value="4">4 - Organic Herbs & Spices</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Prod_price (decimal(10,2), not null) -->
+                                        <div class="col-md-6">
+                                            <label for="txtProdPrice" class="form-label fw-bold text-dark">
+                                                Price ($ / kg) (Prod_price) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-dollar-sign input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtProdPrice" runat="server" TextMode="Number" step="0.01" CssClass="form-control py-3" placeholder="4.99" required></asp:TextBox> -->
+                                                <input type="number" step="0.01" class="form-control py-3" id="txtProdPrice" name="txtProdPrice" placeholder="e.g. 4.99" required min="0.01">
+                                            </div>
+                                        </div>
+
+                                        <!-- Prod_Stock (int, not null) -->
+                                        <div class="col-md-6">
+                                            <label for="txtProdStock" class="form-label fw-bold text-dark">
+                                                Available Stock (Prod_Stock) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-boxes input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtProdStock" runat="server" TextMode="Number" CssClass="form-control py-3" placeholder="100" required></asp:TextBox> -->
+                                                <input type="number" class="form-control py-3" id="txtProdStock" name="txtProdStock" placeholder="e.g. 150" required min="0">
+                                            </div>
+                                        </div>
+
+                                        <!-- Prod_Status (varchar(50), not null) -->
+                                        <div class="col-md-6">
+                                            <label for="ddlProdStatus" class="form-label fw-bold text-dark">
+                                                Product Status (Prod_Status) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-toggle-on input-icon"></i>
+                                                <!-- ASP.NET: <asp:DropDownList ID="ddlProdStatus" runat="server" CssClass="form-select py-3"> -->
+                                                <select class="form-select py-3" id="ddlProdStatus" name="ddlProdStatus" required>
+                                                    <option value="Available" selected>Available (In Stock)</option>
+                                                    <option value="Out of Stock">Out of Stock</option>
+                                                    <option value="Discontinued">Discontinued</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Prod_Image (varchar(300), not null) -->
+                                        <div class="col-md-12">
+                                            <label for="fuProdImage" class="form-label fw-bold text-dark">
+                                                Product Image (Prod_Image) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-group">
+                                                <!-- ASP.NET: <asp:FileUpload ID="fuProdImage" runat="server" CssClass="form-control py-3" required /> -->
+                                                <input type="file" class="form-control py-3" id="fuProdImage" name="fuProdImage" accept="image/*" required>
+                                            </div>
+                                            <small class="text-muted">Path stored in <code>Prod_Image varchar(300)</code>.</small>
+                                            
+                                            <!-- Image Preview -->
+                                            <div id="prodImagePreviewContainer" class="mt-2 d-none">
+                                                <img id="prodImagePreview" src="#" alt="Product Preview" class="img-thumbnail" style="max-height: 120px; border-radius: 8px;">
+                                            </div>
+                                        </div>
+
+                                        <!-- Prod_Description (varchar(1000), not null) -->
+                                        <div class="col-12">
+                                            <label for="txtProdDescription" class="form-label fw-bold text-dark">
+                                                Product Description (Prod_Description) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-file-alt input-icon" style="top: 25px;"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtProdDescription" runat="server" TextMode="MultiLine" Rows="4" CssClass="form-control py-2 ps-5" placeholder="Enter Product Description" required></asp:TextBox> -->
+                                                <textarea class="form-control py-2 ps-5" id="txtProdDescription" name="txtProdDescription" rows="4" placeholder="Enter nutritional facts, freshness, source, packaging details..." required maxlength="1000"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Action Buttons -->
+                                    <div class="row g-3 mt-4">
+                                        <div class="col-md-7">
+                                            <!-- ASP.NET: <asp:Button ID="btnAddProduct" runat="server" Text="Save Product" CssClass="btn btn-primary text-white w-100 py-3 rounded-3 fw-bold shadow-sm" OnClick="btnAddProduct_Click" /> -->
+                                            <button type="submit" id="btnAddProduct" class="btn btn-primary text-white w-100 py-3 rounded-3 fw-bold shadow-sm">
+                                                <i class="fas fa-plus-circle me-2"></i>Save Product
+                                            </button>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <a href="admin-home.html" class="btn btn-outline-secondary w-100 py-3 rounded-3">
+                                                <i class="fas fa-times me-1"></i>Cancel
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- ASP.NET C# SQL Insertion Code Guide -->
+                                    <div class="aspx-note-box mt-4">
+                                        <strong><i class="fas fa-code text-primary me-1"></i> ASP.NET C# SQL Insert Reference:</strong>
+                                        <pre class="bg-white p-2 rounded border mt-2 small text-dark" style="font-family: Consolas, monospace;">
+string imgPath = "~/img/products/" + fuProdImage.FileName;
+fuProdImage.SaveAs(Server.MapPath(imgPath));
+
+string qry = @"INSERT INTO dbo.Product_tab 
+              (Prod_Name, Cat_Id, Prod_price, Prod_Image, Prod_Description, Prod_Stock, Prod_Status) 
+              VALUES (@Prod_Name, @Cat_Id, @Prod_price, @Prod_Image, @Prod_Description, @Prod_Stock, @Prod_Status)";
+cmd.Parameters.AddWithValue("@Prod_Name", txtProdName.Text.Trim());
+cmd.Parameters.AddWithValue("@Cat_Id", Convert.ToInt32(ddlCategory.SelectedValue));
+cmd.Parameters.AddWithValue("@Prod_price", Convert.ToDecimal(txtProdPrice.Text));
+cmd.Parameters.AddWithValue("@Prod_Image", imgPath);
+cmd.Parameters.AddWithValue("@Prod_Description", txtProdDescription.Text.Trim());
+cmd.Parameters.AddWithValue("@Prod_Stock", Convert.ToInt32(txtProdStock.Text));
+cmd.Parameters.AddWithValue("@Prod_Status", ddlProdStatus.SelectedValue);</pre>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Product Form Section End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Fruitables Admin</h4>
+                            <p class="mb-4">Internal store management and inventory product catalog controls.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Admin Navigation</h4>
+                            <a class="btn-link" href="admin-home.html">Admin Home</a>
+                            <a class="btn-link" href="add-category.html">Add Category</a>
+                            <a class="btn-link" href="add-product.html">Add Product</a>
+                            <a class="btn-link" href="login.html">Logout</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Email: admin@fruitables.com</p>
+                            <p>Phone: +0123 4567 8910</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            // Image Preview handler
+            const prodFileInput = document.getElementById('fuProdImage');
+            const prodPreviewContainer = document.getElementById('prodImagePreviewContainer');
+            const prodPreviewImg = document.getElementById('prodImagePreview');
+
+            prodFileInput.addEventListener('change', function() {
+                const file = this.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        prodPreviewImg.setAttribute('src', e.target.result);
+                        prodPreviewContainer.classList.remove('d-none');
+                    }
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Demo submission handler
+            document.getElementById('addProductForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert("Product Added Successfully into dbo.Product_tab! Redirecting to Admin Home...");
+                window.location.href = "admin-home.html";
+            });
+        </script>
+    </body>
+
+</html>

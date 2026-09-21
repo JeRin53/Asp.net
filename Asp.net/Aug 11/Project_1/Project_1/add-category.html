@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Add Category - Fruitables Admin</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Fruitables Admin Add Category" name="keywords">
+        <meta content="Add a new fruit/vegetable category to the store database." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
+                            <a href="cart.html" class="nav-item nav-link">Shop Cart</a>
+                            <a href="chackout.html" class="nav-item nav-link">Checkout</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <a href="cart.html" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                                <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                            </a>
+                            <!-- User Dropdown Menu -->
+                            <div class="dropdown my-auto user-nav-dropdown">
+                                <a href="#" class="my-auto text-primary no-caret" id="userMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Account Menu">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end user-dropdown-menu" aria-labelledby="userMenuDropdown">
+                                    <li><h6 class="dropdown-header"><i class="fas fa-sign-in-alt me-2"></i>Account Access</h6></li>
+                                    <li><a class="dropdown-item" href="login.html"><i class="fas fa-key"></i>Login</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><h6 class="dropdown-header"><i class="fas fa-user-plus me-2"></i>Registration</h6></li>
+                                    <li><a class="dropdown-item" href="user-register.html"><i class="fas fa-user"></i>User Registration</a></li>
+                                    <li><a class="dropdown-item" href="admin-register.html"><i class="fas fa-user-shield"></i>Admin Registration</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Single Page Header start -->
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-white display-6">Add New Category</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="admin-home.html">Admin Home</a></li>
+                <li class="breadcrumb-item"><a href="admin-home.html">Categories</a></li>
+                <li class="breadcrumb-item active text-white">Add Category</li>
+            </ol>
+        </div>
+        <!-- Single Page Header End -->
+
+
+        <!-- Add Category Form Section Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        
+                        <!-- Top Navigation Bar for Admin Action -->
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <a href="admin-home.html" class="btn btn-outline-primary rounded-pill px-3">
+                                <i class="fas fa-arrow-left me-1"></i> Back to Admin Home
+                            </a>
+                            <a href="add-product.html" class="btn btn-outline-secondary rounded-pill px-3">
+                                <i class="fas fa-plus me-1"></i> Add Product Instead
+                            </a>
+                        </div>
+
+                        <div class="auth-card">
+                            <div class="auth-card-header" style="background: linear-gradient(135deg, #81c408 0%, #45595b 100%);">
+                                <div class="mb-2">
+                                    <i class="fas fa-folder-plus fa-3x text-white"></i>
+                                </div>
+                                <h3 class="text-white mb-1">Add Category</h3>
+                                <p class="text-white-50 mb-0">Insert records into <code>dbo.Category_tab</code></p>
+                            </div>
+                            <div class="auth-card-body p-4 p-md-5">
+
+                                <!-- Database schema reference info banner -->
+                                <div class="alert alert-light border border-secondary text-dark rounded-3 mb-4 d-flex align-items-center">
+                                    <i class="fas fa-database text-primary fa-2x me-3"></i>
+                                    <div class="small">
+                                        <strong>Target Table:</strong> <code>dbo.Category_tab</code><br>
+                                        <strong>Cat_Id:</strong> <span class="badge bg-success text-white">Primary Key (Auto-Increment / Identity)</span> &bull; No manual input required for Cat_Id.
+                                    </div>
+                                </div>
+
+                                <!-- ASP.NET Note: In .aspx replace with <form id="form1" runat="server" enctype="multipart/form-data"> -->
+                                <form id="addCategoryForm" method="post" action="#" enctype="multipart/form-data">
+                                    
+                                    <div class="row g-3">
+                                        
+                                        <!-- Cat_Id Info Display (Auto Increment) -->
+                                        <div class="col-md-12">
+                                            <label class="form-label fw-bold text-dark">
+                                                Category ID (Cat_Id)
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-hashtag input-icon"></i>
+                                                <input type="text" class="form-control bg-light py-3" value="[Auto-Generated by SQL Server Identity]" readonly>
+                                            </div>
+                                            <small class="text-muted"><i class="fas fa-info-circle me-1"></i>Cat_Id is set as Identity(1,1) Primary Key.</small>
+                                        </div>
+
+                                        <!-- Cat_Name (varchar(50), not null) -->
+                                        <div class="col-md-12">
+                                            <label for="txtCatName" class="form-label fw-bold text-dark">
+                                                Category Name (Cat_Name) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-tag input-icon"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtCatName" runat="server" CssClass="form-control py-3" placeholder="e.g. Fresh Fruits, Organic Vegetables" required></asp:TextBox> -->
+                                                <input type="text" class="form-control py-3" id="txtCatName" name="txtCatName" placeholder="e.g. Fresh Organic Fruits" required maxlength="50">
+                                            </div>
+                                        </div>
+
+                                        <!-- Cat_Status (varchar(20), not null) -->
+                                        <div class="col-md-12">
+                                            <label for="ddlCatStatus" class="form-label fw-bold text-dark">
+                                                Category Status (Cat_Status) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-toggle-on input-icon"></i>
+                                                <!-- ASP.NET: <asp:DropDownList ID="ddlCatStatus" runat="server" CssClass="form-select py-3"> -->
+                                                <select class="form-select py-3" id="ddlCatStatus" name="ddlCatStatus" required>
+                                                    <option value="Active" selected>Active</option>
+                                                    <option value="Inactive">Inactive</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Cat_Image (varchar(255), not null) -->
+                                        <div class="col-md-12">
+                                            <label for="fuCatImage" class="form-label fw-bold text-dark">
+                                                Category Image (Cat_Image) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-group">
+                                                <!-- ASP.NET: <asp:FileUpload ID="fuCatImage" runat="server" CssClass="form-control py-3" required /> -->
+                                                <input type="file" class="form-control py-3" id="fuCatImage" name="fuCatImage" accept="image/*" required>
+                                            </div>
+                                            <small class="text-muted">Upload an image file (Path stored in <code>Cat_Image varchar(255)</code>).</small>
+                                            
+                                            <!-- Image Preview Area -->
+                                            <div id="imagePreviewContainer" class="mt-2 d-none">
+                                                <img id="catImagePreview" src="#" alt="Category Preview" class="img-thumbnail" style="max-height: 120px; border-radius: 8px;">
+                                            </div>
+                                        </div>
+
+                                        <!-- Cat_Description (varbinary(500) / varchar(500), not null) -->
+                                        <div class="col-12">
+                                            <label for="txtCatDescription" class="form-label fw-bold text-dark">
+                                                Category Description (Cat_Description) <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="input-icon-group">
+                                                <i class="fas fa-align-left input-icon" style="top: 25px;"></i>
+                                                <!-- ASP.NET: <asp:TextBox ID="txtCatDescription" runat="server" TextMode="MultiLine" Rows="4" CssClass="form-control py-2 ps-5" placeholder="Enter Category Description" required></asp:TextBox> -->
+                                                <textarea class="form-control py-2 ps-5" id="txtCatDescription" name="txtCatDescription" rows="4" placeholder="Describe the category and products it contains..." required maxlength="500"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Action Buttons -->
+                                    <div class="row g-3 mt-4">
+                                        <div class="col-md-7">
+                                            <!-- ASP.NET: <asp:Button ID="btnAddCategory" runat="server" Text="Save Category" CssClass="btn btn-primary text-white w-100 py-3 rounded-3 fw-bold shadow-sm" OnClick="btnAddCategory_Click" /> -->
+                                            <button type="submit" id="btnAddCategory" class="btn btn-primary text-white w-100 py-3 rounded-3 fw-bold shadow-sm">
+                                                <i class="fas fa-save me-2"></i>Save Category
+                                            </button>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <a href="admin-home.html" class="btn btn-outline-secondary w-100 py-3 rounded-3">
+                                                <i class="fas fa-times me-1"></i>Cancel
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- ASP.NET C# SQL Insertion Code Guide -->
+                                    <div class="aspx-note-box mt-4">
+                                        <strong><i class="fas fa-code text-primary me-1"></i> ASP.NET C# SQL Insert Reference:</strong>
+                                        <pre class="bg-white p-2 rounded border mt-2 small text-dark" style="font-family: Consolas, monospace;">
+string imgPath = "~/img/categories/" + fuCatImage.FileName;
+fuCatImage.SaveAs(Server.MapPath(imgPath));
+
+string qry = @"INSERT INTO dbo.Category_tab 
+              (Cat_Name, Cat_Description, Cat_Image, Cat_Status) 
+              VALUES (@Cat_Name, @Cat_Description, @Cat_Image, @Cat_Status)";
+cmd.Parameters.AddWithValue("@Cat_Name", txtCatName.Text.Trim());
+cmd.Parameters.AddWithValue("@Cat_Description", txtCatDescription.Text.Trim());
+cmd.Parameters.AddWithValue("@Cat_Image", imgPath);
+cmd.Parameters.AddWithValue("@Cat_Status", ddlCatStatus.SelectedValue);</pre>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Category Form Section End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                    <div class="row g-4">
+                        <div class="col-lg-3">
+                            <a href="index.html">
+                                <h1 class="text-primary mb-0">Fruitables</h1>
+                                <p class="text-secondary mb-0">Fresh products</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mx-auto">
+                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
+                                <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex justify-content-end pt-3">
+                                <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Why People Like us!</h4>
+                            <p class="mb-4">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                            <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Shop Info</h4>
+                            <a class="btn-link" href="">About Us</a>
+                            <a class="btn-link" href="">Contact Us</a>
+                            <a class="btn-link" href="">Privacy Policy</a>
+                            <a class="btn-link" href="">Terms & Condition</a>
+                            <a class="btn-link" href="">Return Policy</a>
+                            <a class="btn-link" href="">FAQs & Help</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Account</h4>
+                            <a class="btn-link" href="login.html">My Account</a>
+                            <a class="btn-link" href="shop.html">Shop details</a>
+                            <a class="btn-link" href="cart.html">Shopping Cart</a>
+                            <a class="btn-link" href="user-register.html">User Registration</a>
+                            <a class="btn-link" href="admin-register.html">Admin Registration</a>
+                            <a class="btn-link" href="admin-home.html">Admin Home</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Address: 1429 Netus Rd, NY 48247</p>
+                            <p>Email: Example@gmail.com</p>
+                            <p>Phone: +0123 4567 8910</p>
+                            <p>Payment Accepted</p>
+                            <img src="img/payment.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Fruitables</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            // Image Preview handler
+            const fileInput = document.getElementById('fuCatImage');
+            const previewContainer = document.getElementById('imagePreviewContainer');
+            const previewImg = document.getElementById('catImagePreview');
+
+            fileInput.addEventListener('change', function() {
+                const file = this.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        previewImg.setAttribute('src', e.target.result);
+                        previewContainer.classList.remove('d-none');
+                    }
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Demo submission handler
+            document.getElementById('addCategoryForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert("Category Added Successfully into dbo.Category_tab! Redirecting to Admin Home...");
+                window.location.href = "admin-home.html";
+            });
+        </script>
+    </body>
+
+</html>

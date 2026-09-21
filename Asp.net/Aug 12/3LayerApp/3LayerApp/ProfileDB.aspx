@@ -19,6 +19,20 @@
             height: 40px;
             width: 32px;
         }
+        .auto-style5 {
+            width: 1403px;
+        }
+        .auto-style6 {
+            height: 40px;
+            width: 1403px;
+        }
+        .auto-style7 {
+            width: 86px;
+        }
+        .auto-style8 {
+            height: 40px;
+            width: 86px;
+        }
     </style>
 </head>
 <body>
@@ -27,8 +41,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -37,8 +51,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -47,10 +61,10 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>Name</td>
-                <td>
+                <td class="auto-style5">
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -59,8 +73,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -69,10 +83,10 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>Age</td>
-                <td>
+                <td class="auto-style5">
                     <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -81,8 +95,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -91,10 +105,10 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>Address</td>
-                <td>
+                <td class="auto-style5">
                     <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -103,8 +117,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -113,10 +127,10 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>Photo</td>
-                <td>
+                <td class="auto-style5">
                     <asp:Image ID="Image1" runat="server" Height="409px" />
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -125,8 +139,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -135,8 +149,8 @@
             <tr>
                 <td class="auto-style2"></td>
                 <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style8"></td>
                 <td class="auto-style4"></td>
                 <td class="auto-style2"></td>
                 <td class="auto-style2"></td>
@@ -145,8 +159,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -155,11 +169,11 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style5">
                     <asp:GridView ID="GridView1" runat="server">
                     </asp:GridView>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -168,8 +182,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -178,8 +192,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -188,9 +202,9 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style5">
                     &nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -198,8 +212,8 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>
+                <td>&nbsp;&nbsp;</td>
+                <td class="auto-style5">
                     <asp:DataList ID="DataList1" runat="server" RepeatColumns="2">
                         <ItemTemplate>
                             <table class="auto-style1">
@@ -323,7 +337,7 @@
                         </ItemTemplate>
                     </asp:DataList>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -332,8 +346,8 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
