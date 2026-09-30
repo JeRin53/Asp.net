@@ -1,0 +1,33 @@
+﻿@model WebApplication1.Models.InsertCls
+@{
+    ViewBag.Title = "Insert_Click";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Insert_Click</h2>
+<div>
+    @using (Html.BeginForm("Insert_Click","DBInserttab",FormMethod.Post))
+            {
+                <div>
+                    <label>Name :</label>
+                </div>
+                <div>
+                    @Html.TextBoxFor(m=>m.Name)
+                    @Html.ValidationMessageFor(m=>m.Name)
+                </div>
+
+                <div>
+                    <label>Age:</label>
+                </div>
+                <div>
+                    @Html.TextBoxFor(m => m.Age)
+                    @Html.ValidationMessageFor(m => m.Age)
+                </div>
+
+                <div>
+                    <input type="submit" value="insert" />
+                    @Html.DisplayFor(m=>m.msg)
+                </div>
+            }
+</div>
+

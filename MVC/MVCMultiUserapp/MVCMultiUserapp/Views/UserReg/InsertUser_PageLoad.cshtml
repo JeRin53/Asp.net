@@ -1,0 +1,79 @@
+﻿@model MVCMultiUserapp.Models.UserReg
+@{
+    ViewBag.Title = "InsertUser_PageLoad";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>InsertUser_PageLoad</h2>
+<div>
+    @using (Html.BeginForm("InsertUser_Click", "UserReg", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div>
+            <label>Name:</label>
+        </div>
+        <div>
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+
+        <div>
+            <label>Age:</label>
+        </div>
+        <div>
+            @Html.TextAreaFor(m => m.Age)
+            @Html.ValidationMessageFor(m => m.Age)
+        </div>
+
+        <div>
+            <label>Address:</label>
+        </div>
+        <div>
+            @Html.TextAreaFor(m => m.Address)
+            @Html.ValidationMessageFor(m => m.Address)
+        </div>
+
+        <div>
+            <label>Email:</label>
+        </div>
+        <div>
+            @Html.TextAreaFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+
+        <div>
+            <label>Photo:</label>
+        </div>
+        <div>
+            @Html.TextBox("file","",new { Type="file"})
+        </div>
+
+        <div>
+            <label>Username:</label>
+        </div>
+        <div>
+            @Html.TextAreaFor(m => m.Username)
+            @Html.ValidationMessageFor(m => m.Username)
+        </div>
+
+        <div>
+            <label>Password:</label>
+        </div>
+        <div>
+            @Html.PasswordFor(m => m.Pass)
+        </div>
+
+        <div>
+            <label>Confirm Pass:</label>
+        </div>
+        <div>
+            @Html.PasswordFor(m => m.Cpass)
+            @Html.ValidationMessageFor(m => m.Cpass)
+        </div>
+
+        <div>
+            <input id="01" type="submit" value="Register" />
+            @Html.DisplayFor(m => m.Usermsg)
+        </div>
+    }
+</div>
+

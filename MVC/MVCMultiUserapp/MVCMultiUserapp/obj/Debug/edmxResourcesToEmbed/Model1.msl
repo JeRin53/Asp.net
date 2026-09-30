@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCmultiuserModelStoreContainer" CdmEntityContainer="MVCmultiuserEntities">
+    <EntitySetMapping Name="AdminRegs">
+      <EntityTypeMapping TypeName="MVCmultiuserModel.AdminReg">
+        <MappingFragment StoreEntitySet="AdminReg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AdName" ColumnName="AdName" />
+          <ScalarProperty Name="AdAddress" ColumnName="AdAddress" />
+          <ScalarProperty Name="AdPhone" ColumnName="AdPhone" />
+          <ScalarProperty Name="AdEmail" ColumnName="AdEmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginTabs">
+      <EntityTypeMapping TypeName="MVCmultiuserModel.LoginTab">
+        <MappingFragment StoreEntitySet="LoginTab">
+          <ScalarProperty Name="Log_Id" ColumnName="Log_Id" />
+          <ScalarProperty Name="Reg_Id" ColumnName="Reg_Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRegs">
+      <EntityTypeMapping TypeName="MVCmultiuserModel.UserReg">
+        <MappingFragment StoreEntitySet="UserReg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_adminReg" FunctionName="MVCmultiuserModel.Store.sp_adminReg" />
+    <FunctionImportMapping FunctionImportName="sp_LoginCountId" FunctionName="MVCmultiuserModel.Store.sp_LoginCountId" />
+    <FunctionImportMapping FunctionImportName="sp_LoginId" FunctionName="MVCmultiuserModel.Store.sp_LoginId" />
+    <FunctionImportMapping FunctionImportName="sp_Loginsert" FunctionName="MVCmultiuserModel.Store.sp_Loginsert" />
+    <FunctionImportMapping FunctionImportName="sp_LoginType" FunctionName="MVCmultiuserModel.Store.sp_LoginType" />
+    <FunctionImportMapping FunctionImportName="sp_MaxIdLogin" FunctionName="MVCmultiuserModel.Store.sp_MaxIdLogin" />
+    <FunctionImportMapping FunctionImportName="sp_UserReg" FunctionName="MVCmultiuserModel.Store.sp_UserReg" />
+  </EntityContainerMapping>
+</Mapping>

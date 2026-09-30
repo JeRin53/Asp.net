@@ -23,7 +23,7 @@
             <input id="t2" type="text" />
             <input type="button" value="Submit" onclick="sum();"/>
             <br/>
-            <asp:Button ID="button1" runat="server" text="button"
+            <asp:Button ID="button1" runat="server" text="button" />
         </div>
     </form>
 </body>

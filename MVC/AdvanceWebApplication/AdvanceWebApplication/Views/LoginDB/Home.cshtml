@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Home</h2>
+<div>
+    @Html.ActionLink("View User Profile", "Profile_Load", "UserProfileDB");
+</div>
+
+<div>
+    @Html.ActionLink("Change Password", "Password_Load", "Changepwd");
+</div>

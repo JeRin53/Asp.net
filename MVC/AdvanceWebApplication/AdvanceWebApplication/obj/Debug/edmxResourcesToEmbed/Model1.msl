@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVC1ModelStoreContainer" CdmEntityContainer="MVC1Entities">
+    <EntitySetMapping Name="advtab1">
+      <EntityTypeMapping TypeName="MVC1Model.advtab1">
+        <MappingFragment StoreEntitySet="advtab1">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_insertadv" FunctionName="MVC1Model.Store.sp_insertadv" />
+    <FunctionImportMapping FunctionImportName="sp_login" FunctionName="MVC1Model.Store.sp_login" />
+    <FunctionImportMapping FunctionImportName="sp_Getid" FunctionName="MVC1Model.Store.sp_Getid" />
+    <FunctionImportMapping FunctionImportName="sp_Profile" FunctionName="MVC1Model.Store.sp_Profile">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MVC1Model.sp_Profile_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Profile_Update" FunctionName="MVC1Model.Store.sp_Profile_Update" />
+    <FunctionImportMapping FunctionImportName="sp_Getpwd" FunctionName="MVC1Model.Store.sp_Getpwd" />
+    <FunctionImportMapping FunctionImportName="sp_Updatepwd" FunctionName="MVC1Model.Store.sp_Updatepwd" />
+    <FunctionImportMapping FunctionImportName="sp_Selectall" FunctionName="MVC1Model.Store.sp_Selectall">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MVC1Model.sp_Selectall_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

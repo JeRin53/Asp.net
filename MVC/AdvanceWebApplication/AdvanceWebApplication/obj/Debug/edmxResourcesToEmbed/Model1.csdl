@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MVC1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="advtab1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Photo" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Qualification" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MVC1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="advtab1" EntityType="Self.advtab1" />
+    <FunctionImport Name="sp_insertadv">
+      <Parameter Name="na" Mode="In" Type="String" />
+      <Parameter Name="ag" Mode="In" Type="Int32" />
+      <Parameter Name="addr" Mode="In" Type="String" />
+      <Parameter Name="em" Mode="In" Type="String" />
+      <Parameter Name="ph" Mode="In" Type="String" />
+      <Parameter Name="gen" Mode="In" Type="String" />
+      <Parameter Name="state" Mode="In" Type="String" />
+      <Parameter Name="qual" Mode="In" Type="String" />
+      <Parameter Name="una" Mode="In" Type="String" />
+      <Parameter Name="pw" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_login">
+      <Parameter Name="una" Mode="In" Type="String" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+      <Parameter Name="status" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Getid" ReturnType="Collection(Int32)">
+      <Parameter Name="una" Mode="In" Type="String" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Profile" ReturnType="Collection(MVC1Model.sp_Profile_Result)">
+      <Parameter Name="uid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Profile_Update">
+      <Parameter Name="uid" Mode="In" Type="Int32" />
+      <Parameter Name="ag" Mode="In" Type="Int32" />
+      <Parameter Name="addr" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Getpwd" ReturnType="Collection(String)">
+      <Parameter Name="uid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Updatepwd">
+      <Parameter Name="uid" Mode="In" Type="Int32" />
+      <Parameter Name="newpwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Selectall" ReturnType="Collection(MVC1Model.sp_Selectall_Result)" />
+  </EntityContainer>
+  <ComplexType Name="sp_Profile_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Age" Nullable="false" />
+    <Property Type="String" Name="Address" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Photo" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="Gender" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="State" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Qualification" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_Selectall_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Age" Nullable="false" />
+    <Property Type="String" Name="Address" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Photo" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="Gender" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="State" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Qualification" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>
